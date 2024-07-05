@@ -1,0 +1,10 @@
+log_file: '../Resources/logs/bot.log'
+
+instagram:
+  username: 'your_username'
+  password: 'your_password'
+
+spotify:
+  client_id: 'your_spotify_client_id'
+  client_secret: 'your_spotify_client_secret'
+  redirect_uri: 'your_spotify_redirect_uri'
