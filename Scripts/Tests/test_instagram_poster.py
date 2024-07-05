@@ -1,6 +1,7 @@
 # File: Tests/test_instagram_poster.py
 
 import unittest
+import os
 from instagram_poster import post_to_instagram
 
 class TestInstagramPoster(unittest.TestCase):
