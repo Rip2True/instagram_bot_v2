@@ -1,0 +1,9 @@
+opencv-python
+numpy
+instabot
+pyyaml
+requests
+beautifulsoup4
+PyQt5
+spotipy
+pytube
