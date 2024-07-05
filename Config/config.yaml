@@ -2,7 +2,7 @@ log_file: '../Resources/logs/bot.log'
 
 instagram:
   username: 'julian22rrrpub@gmail.com'
-  password: 'change123'
+  password: 'Change123@'
 
 spotify:
   client_id: 'd7bcddda54a848f2b639107aab756d0e'
