@@ -7,8 +7,8 @@ The Athlete Highlight Bot is a tool designed to automate the creation and postin
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/AthleteHighlightBot.git
-cd AthleteHighlightBot
+git clone https://github.com/Rip2True/instagram_bot_v2.git
+cd instagram_bot_v2
 ```
 
 ### 2. Install dependencies
