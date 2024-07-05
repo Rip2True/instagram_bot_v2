@@ -2,16 +2,22 @@
 
 import logging
 import yaml
+import os
 from media_scraper import scrape_media
 from video_editor import compile_highlight_reel
 from instagram_poster import post_to_instagram
 
 def load_config():
-    with open('../instagram_bot_v2/Config/config.yaml', 'r') as file:
+    with open('../Config/config.yaml', 'r') as file:
         config = yaml.safe_load(file)
     return config
 
 def setup_logging(log_file):
+    # Ensure the directory exists
+    log_dir = os.path.dirname(log_file)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
     logging.basicConfig(filename=log_file, level=logging.INFO,
                         format='%(asctime)s:%(levelname)s:%(message)s')
 
