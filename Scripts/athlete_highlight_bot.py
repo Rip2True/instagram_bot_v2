@@ -7,7 +7,7 @@ from video_editor import compile_highlight_reel
 from instagram_poster import post_to_instagram
 
 def load_config():
-    with open('../Config/config.yaml', 'r') as file:
+    with open('../instagram_bot_v2/Config/config.yaml', 'r') as file:
         config = yaml.safe_load(file)
     return config
 
