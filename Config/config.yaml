@@ -1,10 +1,10 @@
 log_file: '../Resources/logs/bot.log'
 
 instagram:
-  username: 'julian22rrrpub@gmail.com'
-  password: 'Change123@'
+  username: 'your_username'
+  password: 'your_password'
 
 spotify:
-  client_id: 'd7bcddda54a848f2b639107aab756d0e'
-  client_secret: 'b84e197972bf466f9a8c43fcc069ad56'
-  redirect_uri: 'http://localhost:8888/callback'
+  client_id: 'your_clie'
+  client_secret: ''
+  redirect_uri: ''
